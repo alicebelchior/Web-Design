@@ -1,0 +1,15 @@
+h1{
+     display: flex;
+     position: relative;
+}
+
+ul{
+     list-style-type: "→";
+     list-style-position: outside;
+     padding: 20px;
+     border-left: 10px;
+}
+
+li{
+
+}
