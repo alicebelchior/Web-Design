@@ -1,22 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
 
+body {
+     padding: 0;
+     margin-top: 100px;
+}
+
 h1{
      font-family: "Madimi One", sans-serif;
      font-weight: 400;
      font-style: normal;
      font-size: 100px;
      text-align: center;
-     margin-top: 0;
    }
-   
 
-ul{
-     list-style-type: "→";
-     list-style-position: outside;
-     padding: 20px;
-     border-left: 10px;
+.menu ul{
+     list-style: none;
+     background-color: #009c3b;
+     height: 100px;
+     font: 150% Madimi One;
+     text-align: center;
+     margin: 50px 100px;
+     display: inline-block;
 }
 
-li{
+.menu li{
+     display: inline;
+     font-weight: 80px;
+     padding: 10px;
+     margin: 50px 100px;
+     text-align: center;
+}
 
+.menu ul li a {
+     background-color: #ffdf00;
+     color: #002776;
+     text-decoration: none;
+     border-bottom: 5px solid #ffff;
 }
