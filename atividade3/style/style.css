@@ -2,38 +2,47 @@
 
 body {
      padding: 0;
-     margin-top: 100px;
-}
+     margin: 0;
+ }
 
-h1{
+h1 {
      font-family: "Madimi One", sans-serif;
      font-weight: 400;
      font-style: normal;
      font-size: 100px;
      text-align: center;
-   }
+ }
 
-.menu ul{
+.menu ul {
+     padding: 0;
+     margin: 0;
      list-style: none;
      background-color: #009c3b;
+     width: 100%;
      height: 100px;
      font: 150% Madimi One;
      text-align: center;
-     margin: 50px 100px;
      display: inline-block;
-}
+ }
 
-.menu li{
+li {
      display: inline;
-     font-weight: 80px;
      padding: 10px;
-     margin: 50px 100px;
+     margin: 50px 100px 50px 100px;
      text-align: center;
-}
+     font: 100% Madimi One;
+ }
 
 .menu ul li a {
      background-color: #ffdf00;
      color: #002776;
      text-decoration: none;
-     border-bottom: 5px solid #ffff;
-}
+     border-bottom: 8px solid #ffff;
+     padding: 5px 10px;
+ }
+
+.menu ul li a:hover {
+     background-color: #002776;
+     color: #ffdf00;
+     border-bottom: 8px solid #ffff;
+ }
