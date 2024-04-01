@@ -27,8 +27,8 @@ h1 {
 
 li {
      display: inline;
-     padding: 10px;
-     margin: 50px 100px 50px 100px;
+     padding: 5px;
+     margin: 50px;
      text-align: center;
      font: 100% Madimi One;
  }
@@ -38,7 +38,7 @@ li {
      color: #002776;
      text-decoration: none;
      border-bottom: 8px solid #ffff;
-     padding: 5px 10px;
+     padding: 5px;
  }
 
 .menu ul li a:hover {
