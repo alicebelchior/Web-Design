@@ -4,18 +4,28 @@
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>Entre em contato</title>
+     <link rel="stylesheet" href="style/contato.css">
 </head>
 <body>
      <h1>Mande uma mensagem para a gente</h1>
-     <form action="/" method="post">
-          <label for="name">Nome: </label>
-          <input type="text" id="name" name="nome">
-          <label for="">E-mail</label>
-          <input type="email" id="">
-          <label for=""></label>
-          <input type="text">
-          <label for=""></label>
-          <input type="text">
-     </form>
+          <form action="/cadastrado" method="post">
+               <div>
+                    <label for="id_name">Nome: </label>
+                    <input type="text" id="id_name" name="nome">
+               </div>
+               <div>
+                    <label for="id_email">E-mail</label>
+                    <input type="email" id="id_email" name="email">
+               </div>
+               <div>
+                    <label for="id_tel">Telefone</label>
+                    <input type="tel" id="id_tel" name="tel" pattern="[0-9]{2} [0-9]{5}-[0-9]{4}" placeholder="27 99999-9999">
+               </div>
+               <div>
+                    <label for="id_subject">Assunto</label><br>
+                    <textarea rows="4" cols="50" name="comment" form="usrform">Mensagem</textarea>
+               </div>
+               <button type="submit">Submit</button>
+          </form>
 </body>
 </html>
