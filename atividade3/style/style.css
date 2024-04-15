@@ -1,48 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
 
 body {
-     padding: 0;
-     margin: 0;
- }
-
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: #009c3b;
+}
+ 
+#titulo {
+    background-color: #ffdf00;
+}
+ 
 h1 {
-     font-family: "Madimi One", sans-serif;
-     font-weight: 400;
-     font-style: normal;
-     font-size: 100px;
-     text-align: center;
- }
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    margin-bottom: 8px;
+    text-align: center;
+    color: #002776;
+    border-bottom: 8px solid #ffff;
+}
 
 .menu ul {
-     padding: 0;
-     margin: 0;
-     list-style: none;
-     background-color: #009c3b;
-     width: 100%;
-     height: 100px;
-     font: 150% Madimi One;
-     text-align: center;
-     display: inline-block;
- }
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    background-color: #002776;
+    width: 100%;
+    height: 100px;
+    font-family: "Madimi One", sans-serif;
+    text-align: center;
+    display: inline-block;
+}
 
 li {
-     display: inline;
-     padding: 5px;
-     margin: 50px;
-     text-align: center;
-     font: 100% Madimi One;
- }
+    display: inline;
+    padding: 5px;
+    margin: 50px;
+    text-align: center;
+    font-family: "Madimi One", sans-serif; 
+}
 
 .menu ul li a {
-     background-color: #ffdf00;
-     color: #002776;
-     text-decoration: none;
-     border-bottom: 8px solid #ffff;
-     padding: 5px;
- }
+    background-color: #ffdf00;
+    color: #002776;
+    text-decoration: none;
+    border-bottom: 8px solid #ffff;
+    padding: 5px;
+}
 
 .menu ul li a:hover {
-     background-color: #002776;
-     color: #ffdf00;
-     border-bottom: 8px solid #ffff;
- }
+    background-color: #009c3b;
+    color: #ffdf00;
+    border-bottom: 8px solid #ffff;
+}
