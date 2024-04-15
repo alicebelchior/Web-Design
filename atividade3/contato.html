@@ -12,39 +12,39 @@
      </div>
      <form action="/cadastrado" method="post">
           <fieldset>
-               <div class="row">
-                    <div class="col-25">
-                         <label for="id_name">Nome</label>
-                    </div>
-                    <div class="col-75">
-                         <input type="text" id="id_name" name="nome">
-                    </div>
+          <div class="row">
+               <div class="col-25">
+                    <label for="id_name">Nome</label>
                </div>
-               <div class="row">
-                    <div class="col-25">
-                         <label for="id_email">E-mail</label>
-                    </div>
-                    <div class="col-75">
-                         <input type="email" id="id_email" name="email">
-                    </div>
+               <div class="col-75">
+                    <input type="text" id="id_name" name="nome">
                </div>
-               <div class="row">
-                    <div class="col-25">
-                         <label for="id_tel">Telefone</label>
-                    </div>
-                    <div class="col-75">
-                         <input type="tel" id="id_tel" name="tel" pattern="[0-9]{2} [0-9]{5}-[0-9]{4}" placeholder="27 99999-9999">
-                    </div>
+          </div>
+          <div class="row">
+               <div class="col-25">
+                    <label for="id_email">E-mail</label>
                </div>
-               <div class="row">
-                    <div class="col-25">
-                         <label for="id_subject">Assunto</label>
-                    </div>
-                    <div class="col-75">
-                         <textarea rows="4" cols="50" name="comment" form="usrform">Mensagem aqui... </textarea>
-                    </div>
+               <div class="col-75">
+                    <input type="email" id="id_email" name="email">
                </div>
-               <button type="submit">Submit</button>
+          </div>
+          <div class="row">
+               <div class="col-25">
+                    <label for="id_tel">Telefone</label>
+               </div>
+               <div class="col-75">
+                    <input type="tel" id="id_tel" name="tel" pattern="[0-9]{2} [0-9]{5}-[0-9]{4}" placeholder="27 99999-9999">
+               </div>
+          </div>
+          <div class="row">
+               <div class="col-25">
+                    <label for="id_subject">Assunto</label>
+               </div>
+               <div class="col-75">
+                    <textarea rows="4" cols="50" id="id_subject" name="comment" form="usrform" placeholder="Mensagem aqui..."></textarea>
+               </div>
+          </div>
+          <button type="submit">Submit</button>
           </fieldset>
      </form>
      <footer>
