@@ -45,61 +45,29 @@
       </ul>
     </nav>
 
-    <br /><br /><br /><br />
-
-    <!-- CARROSSEL -->
-    <div class="container-fluid">
+    <!-- JUMBOTRON -->
+    <div class="containter">
       <div class="row">
-        <div class="col-md-4">
-          <div id="demo" class="carousel slide" data-ride="carousel">
-            <!-- Indicators -->
-            <ul class="carousel-indicators">
-              <li data-target="#demo" data-slide-to="0" class="active"></li>
-              <li data-target="#demo" data-slide-to="1"></li>
-            </ul>
-
-            <!-- The slideshow -->
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img
-                  class="d-block w-100"
-                  src="img/Caneca Brasil frente.jpg"
-                  alt="Caneca Brasil frente"
-                />
-              </div>
-              <div class="carousel-item">
-                <img
-                  class="d-block w-100"
-                  src="img/Caneca Brasil verso.jpg"
-                  alt="Caneca Brasil verso"
-                />
-              </div>
-            </div>
-
-            <!-- Left and right controls -->
-            <a class="carousel-control-prev" href="#demo" data-slide="prev">
-              <span class="carousel-control-prev-icon"></span>
-            </a>
-            <a class="carousel-control-next" href="#demo" data-slide="next">
-              <span class="carousel-control-next-icon"></span>
-            </a>
+        <div class="col-sm-4">
+          <h3>Meu Carrinho</h3>
+          <div class="jumbotron">
+                    <div id="descricao"></div>
+                    <strong><label for="">Quantidade</label></strong>
+                    <input type="number" id="qtdProduto" name="qtd" class="qtd">
           </div>
         </div>
-      </div>
-
-      <!-- DESCRIÇÃO -->
-      <div class="row">
-        <div class="col-md-4">
-          <strong>
-            <p id="descricao">Caneca Flork Torcedor Brasil</p>
-            <p id="valor">R$ 25,00</p>
-          </strong>
-          <button onclick="resumoCompra()" id="carrinho" type="button" class="btn btn-primary">Comprar</button>
+        <div class="col-sm-4">
+          <h3>Resumo da Compra</h3>
+          <div id="jumbotronResumo" class="jumbotron">
+                    <div id="valorTotal">
+                              
+                    </div>
+          </div>
         </div>
       </div>
     </div>
 
     <script type="text/javascript" src="js/index.js"></script>
-
+    
   </body>
 </html>
