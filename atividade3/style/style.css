@@ -6,11 +6,11 @@ body {
     text-align: center;
     background-color: #009c3b;
 }
- 
+
 #titulo {
     background-color: #ffdf00;
 }
- 
+
 h1 {
     font-family: "Madimi One", sans-serif;
     font-weight: 400;
@@ -39,7 +39,7 @@ li {
     padding: 5px;
     margin: 50px;
     text-align: center;
-    font-family: "Madimi One", sans-serif; 
+    font-family: "Madimi One", sans-serif;
 }
 
 .menu ul li a {
