@@ -1,0 +1,11 @@
+body {
+    background-color: blue;
+}
+
+input {
+    width: 100%;
+    display: block;
+    padding: 15px;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
