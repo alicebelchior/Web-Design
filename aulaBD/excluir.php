@@ -7,12 +7,12 @@
 </head>
 
 <body>
-    <h1>Editar Currículo</h1>
+    <h1>Excluir Currículo</h1>
     <?php
     //conexao com o banco de dados
     include_once("conectar.php");
     $sql = "SELECT * FROM cadastrocurriculo";
-    $resultado = mysqli_query($strcon, $sql) or die("Erro ao retornar dados");
+    $resultado = mysqli_query($bancobd, $sql) or die("Erro ao retornar dados");
     //o "resultado" cria um índice dos dados no bd
 
     //laço de repetição para mostrar os registros no bd
@@ -28,7 +28,7 @@
         $curso = $registro['Curso'];
 
         echo "<span></span><hr>";
-        echo "<form method='GET' action='alterar_cliente.php'>";
+        echo "<form method='DELETE' action='alterar_cliente.php'>";
         echo "<input type='hidden' name='id' value='$id'>";
 
         echo "<label for='nome'>Nome:</label>";
@@ -53,7 +53,7 @@
         echo "</form>";
     }
 
-    mysqli_close($strcon);
+    mysqli_close($bancobd);
 
     ?>
 </body>
