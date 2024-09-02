@@ -41,7 +41,6 @@
         echo "<td>" . $nome . "</td>";
         echo "<td>" . $sobrenome . "</td>";
         echo "<td>" . $telefone . "</td>";
-        echo "<td>" . $telefone . "</td>";
         echo "<td>" . $email . "</td>";
         echo "<td>" . $escolaridade . "</td>";
         echo "<td>" . $curso . "</td>";

@@ -12,7 +12,7 @@
     //conexao com o banco de dados
     include_once("conectar.php");
     $sql = "SELECT * FROM cadastrocurriculo";
-    $resultado = mysqli_query($strcon, $sql) or die("Erro ao retornar dados");
+    $resultado = mysqli_query($bancobd, $sql) or die("Erro ao retornar dados");
     //o "resultado" cria um índice dos dados no bd
 
     //laço de repetição para mostrar os registros no bd
@@ -53,7 +53,7 @@
         echo "</form>";
     }
 
-    mysqli_close($strcon);
+    mysqli_close($bancobd);
 
     ?>
 </body>
