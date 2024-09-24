@@ -11,7 +11,7 @@
 <body>
 	<div class="container">
 		<header>
-			<h3>Sistema de Cadastro de Currículo</h3><br>
+			<h3>Sistema de Cadastro de Currículo</h3>
 		</header>
 
 
