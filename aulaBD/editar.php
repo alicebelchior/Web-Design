@@ -11,8 +11,8 @@
     <header>
         <h1>Editar Currículo</h1>
     </header>
-    <form>
-        <?php
+	<main>
+		<?php
         //conexao com o banco de dados
         include_once("conectar.php");
         $sql = "SELECT * FROM cadastrocurriculo";
@@ -36,22 +36,22 @@
             echo "<input type='hidden' name='id' value='$id'>";
 
             echo "<label for='nome'>Nome:</label>";
-            echo "<input type='text' id='nome' name='NomeCliente' placeholder='Digite o nome completo' value='$nome'><span></span>";
+            echo "<input type='text' id='nome' name='Nome' placeholder='Digite o nome completo' value='$nome'><span></span>";
 
             echo "<label for='sobrenome'>Sobrenome:</label>";
-            echo "<input type='text' id='sobrenome' name='SobrenomeCliente' placeholder='Digite o seu sobrenome' value='$sobrenome'><span></span>";
+            echo "<input type='text' id='sobrenome' name='Sobrenome' placeholder='Digite o seu sobrenome' value='$sobrenome'><span></span>";
 
             echo "<label for='telefone'>Telefone:</label>";
-            echo "<input type='text' id='telefone' name='TelefoneCliente' placeholder='Digite o telefone' value='$telefone'><span></span>";
+            echo "<input type='text' id='telefone' name='telefone' placeholder='Digite o telefone' value='$telefone'><span></span>";
 
             echo "<label for='email'>Email:</label>";
-            echo "<input type='email' id='email' name='EmailCliente' placeholder='Digite o email' value='$email'><span></span>";
+            echo "<input type='email' id='email' name='Email' placeholder='Digite o email' value='$email'><span></span>";
 
             echo "<label for='escolaridade'>Escolaridade:</label>";
-            echo "<input type='text' id='escolaridade' name='EscolaridadeCliente' placeholder='Digite a escolaridade' value='$escolaridade'><span></span>";
+            echo "<input type='text' id='escolaridade' name='Escolaridade' placeholder='Digite a escolaridade' value='$escolaridade'><span></span>";
 
             echo "<label for='curso'>Curso:</label>";
-            echo "<input type='text' id='curso' name='CursoCliente' placeholder='Digite o curso' value='$curso'><span></span>";
+            echo "<input type='text' id='curso' name='Curso' placeholder='Digite o curso' value='$curso'><span></span>";
 
             echo "<input type='submit' value='Editar'>";
             echo "</form>";
@@ -60,7 +60,7 @@
         mysqli_close($bancobd);
 
         ?>
-    </form>
+    </main>
 </body>
 
 </html>
