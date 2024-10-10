@@ -12,6 +12,7 @@ echo "<h2>Consulta de Currículo</h2>";
 echo "</header>";
 echo "<table id='tbl'>";
 echo "<tr>";
+echo "<th>ID</th>";
 echo "<th>NOME</th>";
 echo "<th>SOBRENOME</th>";
 echo "<th>TELEFONE</th>";
@@ -36,6 +37,7 @@ while ($registro = mysqli_fetch_array($resultado))
     $escolaridade = $registro['Escolaridade'];
     $curso = $registro['Curso'];
     echo "<tr>";
+    echo "<td>" . $id . "</td>";
     echo "<td>" . $nome . "</td>";
     echo "<td>" . $sobrenome . "</td>";
     echo "<td>" . $telefone . "</td>";
